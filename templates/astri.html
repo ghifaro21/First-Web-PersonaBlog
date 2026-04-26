@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tentang Saya</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='astyle.css') }}" />
+</head>
+<body>
+
+    <!-- Navbar Section -->
+   <div class="navbar">
+    <h1>Ghifar Page</h1>
+    <div class="nav-link">
+      <a href="{{ url_for('halaman_index') }}">🏠Home</a>
+    </div>
+   </div>
+    <!-- End Navbar -->
+
+
+    <!--  content section -->
+    <div class="container">
+        <!-- card 1 -->
+        <div class="card card-biodata">
+        <h1>Astri Wulandari</h1>
+        <h2>Mahasiswa sains data</h2>
+        <img src="{{ url_for('static', filename = 'astrii.jpg') }}" alt="Foto Astri Wulandari" class="pfp"/>
+        <h3> Tentang Saya </h3>
+        <p class="paragraf-penting">
+            saya adalah mahasiswa Ulbi semester 3 jurusan S1 Sains Data </p>
+    </div>
+ <!-- End card  1-->
+
+ <!-- Card 2 -->
+    <div class="card">
+        <h2>Keahlian yang dipelajari:</h2>
+        <ul>
+            <li>HTML Dasar</li>
+            <li>Manajemen Data</li>
+            <li>Dasar-dasar pyhton</li>
+        </ul>
+    </div>
+<!-- end card 2 -->
+
+<!-- Card 3 -->
+    <div class="card">
+         <h2>Riwayat Pendidikan</h2>
+         <br />
+          <!-- Table -->
+           <table>
+        <tr>
+            <th>jenjang</th>
+            <th>Nama Sekolah/Universitas</th>
+            <th>Tahun Lulus</th>
+            <tr>
+                <td>SMA</td>
+                <td>MA plus walisongo</td>
+                <td> 2024</td>
+                <tr>
+                    <td>Universitas</td>
+                    <td>Universitas logistik dan Bisnis Iternasional</td>
+                    <td>2028</td>                
+                </table>
+    </div>
+<!-- end card 3 -->
+
+<!-- Card 4 -->
+    <div class="card card-link">
+        <h2> hubungi Saya </h2>
+        <a href="https://www.youtube.com/"> youtube</a>
+        
+    </div>
+<!-- end card 4 -->
+
+     <footer class="footer">
+        <p> 2025-Dibuat Dengan Sungguh-Sungguh </p>
+    </footer>
+
+    <!-- End content j-->
+    </body>
+</html>

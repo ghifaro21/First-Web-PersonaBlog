@@ -1,0 +1,59 @@
+* {
+  font-family: Arial, sans-serif;
+}
+
+/* Element Selector */
+p {
+  color: black;
+} /* Class Selector */
+.h3 {
+  text-align: center;
+} /* ID Selector */
+#header {
+  background-color: navy;
+} /* Multiple Selector */
+h1,
+h2,
+h3 {
+  font-family: Arial;
+}
+
+.kotak {
+  /* Dimensi */
+  width: 300px;
+  height: 200px; /* Padding: jarak dalam */
+  padding: 20px; /* Border: garis tepi */
+  border: 2px solid black; /* Margin: jarak luar */
+  margin: 10px;
+  background-color: lightblue;
+}
+
+.container {
+  display: flex;
+  justify-content: center; /* Horizontal */
+  align-items: center; /* Vertical */
+  gap: 20px; /* Jarak antar item */
+}
+.item {
+  flex: 1; /* Ukuran fleksibel */
+  padding: 10px;
+}
+
+body {
+  background-color: lightblue; /* Warna latar belakang biru muda */
+  font-family: Arial, sans-serif; /* Jenis huruf */
+  margin: 20px; /* Jarak tepi halaman */
+}
+
+button {
+  background-color: #4CAF50; /* Warna hijau */
+  color: white;              /* Warna teks putih */
+  padding: 10px 20px;        /* Jarak dalam tombol */
+  border: none;              /* Menghilangkan garis tepi */
+  border-radius: 5px;        /* Membuat sudut melengkung */
+  cursor: pointer;           /* Ubah kursor jadi tangan */
+}
+
+button:hover {
+  background-color: #45a049; /* Warna tombol saat disentuh */
+}
